@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <name>file</name>
+        <open>1</open>
+        <Folder>
+            <name>Клиенты</name>
+            <open>1</open>
+            <Placemark>
+                <name>214000, смоленская обл, смоленск г, дзержинского ул, дом 9</name>
+                <description>&lt;![CDATA[11214000, смоленская обл, смоленск г, дзержинского ул, дом 911]]&gt;</description>
+                <LookAt>
+                    <longitude>32.04507</longitude>
+                    <latitude>54.778732</latitude>
+                    <altitude>0.0</altitude>
+                    <heading>0.0</heading>
+                    <tilt>0.0</tilt>
+                    <range>1.2E7</range>
+                </LookAt>
+                <Style>
+                    <IconStyle>
+                        <scale>0.0</scale>
+                        <heading>0.0</heading>
+                        <Icon>
+                            <href>http://api-maps.yandex.ru/i/0.4/micro/pmvvs.png</href>
+                            <refreshInterval>0.0</refreshInterval>
+                            <viewRefreshTime>0.0</viewRefreshTime>
+                            <viewBoundScale>0.0</viewBoundScale>
+                        </Icon>
+                        <hotSpot x="7.0" y="28.0" xunits="pixels" yunits="insetPixels"/>
+                    </IconStyle>
+                </Style>
+                <Point>
+                    <coordinates>32.04507,54.778732</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>214000, смоленская обл, смоленск г, реввоенсовета ул, дом 26</name>
+                <description>&lt;![CDATA[11214000, смоленская обл, смоленск г, реввоенсовета ул, дом 2611]]&gt;</description>
+                <LookAt>
+                    <longitude>32.058815</longitude>
+                    <latitude>54.78529</latitude>
+                    <altitude>0.0</altitude>
+                    <heading>0.0</heading>
+                    <tilt>0.0</tilt>
+                    <range>1.2E7</range>
+                </LookAt>
+                <Style>
+                    <IconStyle>
+                        <scale>0.0</scale>
+                        <heading>0.0</heading>
+                        <Icon>
+                            <href>http://api-maps.yandex.ru/i/0.4/micro/pmvvs.png</href>
+                            <refreshInterval>0.0</refreshInterval>
+                            <viewRefreshTime>0.0</viewRefreshTime>
+                            <viewBoundScale>0.0</viewBoundScale>
+                        </Icon>
+                        <hotSpot x="7.0" y="28.0" xunits="pixels" yunits="insetPixels"/>
+                    </IconStyle>
+                </Style>
+                <Point>
+                    <coordinates>32.058815,54.78529</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>214004, смоленская обл, смоленск г, багратиона ул, дом 17</name>
+                <description>&lt;![CDATA[11214004, смоленская обл, смоленск г, багратиона ул, дом 1711]]&gt;</description>
+                <LookAt>
+                    <longitude>32.02335</longitude>
+                    <latitude>54.77513</latitude>
+                    <altitude>0.0</altitude>
+                    <heading>0.0</heading>
+                    <tilt>0.0</tilt>
+                    <range>1.2E7</range>
+                </LookAt>
+                <Style>
+                    <IconStyle>
+                        <scale>0.0</scale>
+                        <heading>0.0</heading>
+                        <Icon>
+                            <href>http://api-maps.yandex.ru/i/0.4/micro/pmvvs.png</href>
+                            <refreshInterval>0.0</refreshInterval>
+                            <viewRefreshTime>0.0</viewRefreshTime>
+                            <viewBoundScale>0.0</viewBoundScale>
+                        </Icon>
+                        <hotSpot x="7.0" y="28.0" xunits="pixels" yunits="insetPixels"/>
+                    </IconStyle>
+                </Style>
+                <Point>
+                    <coordinates>32.02335,54.77513</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>214004, смоленская обл, смоленск г, багратиона ул, дом 7</name>
+                <description>&lt;![CDATA[11214004, смоленская обл, смоленск г, багратиона ул, дом 711]]&gt;</description>
+                <LookAt>
+                    <longitude>32.026737</longitude>
+                    <latitude>54.773876</latitude>
+                    <altitude>0.0</altitude>
+                    <heading>0.0</heading>
+                    <tilt>0.0</tilt>
+                    <range>1.2E7</range>
+                </LookAt>
+                <Style>
+                    <IconStyle>
+                        <scale>0.0</scale>
+                        <heading>0.0</heading>
+                        <Icon>
+                            <href>http://api-maps.yandex.ru/i/0.4/micro/pmvvs.png</href>
+                            <refreshInterval>0.0</refreshInterval>
+                            <viewRefreshTime>0.0</viewRefreshTime>
+                            <viewBoundScale>0.0</viewBoundScale>
+                        </Icon>
+                        <hotSpot x="7.0" y="28.0" xunits="pixels" yunits="insetPixels"/>
+                    </IconStyle>
+                </Style>
+                <Point>
+                    <coordinates>32.026737,54.773876</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
