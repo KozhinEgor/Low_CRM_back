@@ -6,10 +6,10 @@ import javax.persistence.EntityManager;
 import java.util.List;
 
 @Repository
-public class ReportRepository {
+public class ReportTelegramRepository {
     private final EntityManager entityManager;
 
-    public ReportRepository(EntityManager entityManager) {
+    public ReportTelegramRepository(EntityManager entityManager) {
         this.entityManager = entityManager;
     }
 

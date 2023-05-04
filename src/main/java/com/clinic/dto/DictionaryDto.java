@@ -12,6 +12,6 @@ import lombok.experimental.Accessors;
 @AllArgsConstructor
 @NoArgsConstructor
 public class DictionaryDto {
-    private String code;
+    private String id;
     private String name;
 }

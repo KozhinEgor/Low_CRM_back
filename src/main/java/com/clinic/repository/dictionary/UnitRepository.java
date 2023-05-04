@@ -1,7 +1,7 @@
 package com.clinic.repository.dictionary;
 
 import com.clinic.entity.dictionary.Unit;
-import org.springframework.data.jpa.repository.JpaRepository;
+import com.clinic.repository.ReadOnlyRepository;
 
-public interface UnitRepository extends JpaRepository<Unit,String > {
+public interface UnitRepository extends ReadOnlyRepository<Unit,String > {
 }

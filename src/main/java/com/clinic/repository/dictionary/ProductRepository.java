@@ -1,7 +1,7 @@
 package com.clinic.repository.dictionary;
 
 import com.clinic.entity.dictionary.Product;
-import org.springframework.data.jpa.repository.JpaRepository;
+import com.clinic.repository.ReadOnlyRepository;
 
-public interface ProductRepository extends JpaRepository<Product, String> {
+public interface ProductRepository extends ReadOnlyRepository<Product, String> {
 }

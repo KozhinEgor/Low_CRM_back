@@ -6,10 +6,9 @@ import com.crm.low_crm.model.dto.GroupReport;
 import com.crm.low_crm.model.dto.ShowValues;
 import com.crm.low_crm.model.dto.Values;
 import com.crm.low_crm.model.enity.ParametrReport;
-import com.crm.low_crm.repository.ReportRepository;
+import com.crm.low_crm.repository.ReportTelegramRepository;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -21,7 +20,7 @@ import java.util.List;
 public class GenerateReport {
 
 
-    private ReportRepository repository;
+    private ReportTelegramRepository repository;
 
     public List<Values> generateValues(ParametrReport parametrReport){
         List<Values> values = new ArrayList<>();

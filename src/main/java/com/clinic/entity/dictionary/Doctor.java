@@ -14,7 +14,10 @@ import javax.persistence.*;
 @AttributeOverride(name = "id", column = @Column(name = "doctor1cid", nullable = false))
 public class Doctor extends BaseDictionary {
 
-    @OneToOne
+    @ManyToOne
     @JoinColumn(name = "doctorspec1cid")
     private DoctorSpec spec;
+
+    @Column(name = "doctorspec1cid", insertable = false, updatable = false)
+    private String specId;
 }

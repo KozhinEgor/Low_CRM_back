@@ -2,11 +2,13 @@ server.port: 8082
 spring:
   datasource:
     username: "postgres"
-    password: "admin"
-    url: "jdbc:postgresql://localhost:5432/postgres"
+    password: "postgres"
+    url: "jdbc:postgresql://localhost:5432/clinic"
 #    name: "lowCrm"
   jpa:
-#    database-platform: org.hibernate.dialect.PostgreSQL94Dialect
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
     hibernate.ddl-auto: none
     show-sql: true
 
@@ -22,9 +24,9 @@ dadata:
 
 clinic:
   datasource:
-    url: "jdbc:postgresql://localhost:5432/clinic_database"
-    username: "postgres"
-    password: "admin"
+    url: "jdbc:postgresql://92.241.100.3:58297/1Cdata"
+    username: "1cdb00"
+    password: "UN77v.DaMp9"
   jpa:
     hibernate.ddl-auto: none
     show-sql: true

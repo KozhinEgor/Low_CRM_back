@@ -1,12 +1,11 @@
 package com.crm.low_crm.service;
 
-import com.crm.low_crm.model.dto.Report;
+import com.crm.low_crm.model.dto.ReportDto;
 import com.crm.low_crm.model.enity.ParametrReport;
 import com.crm.low_crm.model.mapper.ReportMapper;
 import com.crm.low_crm.repository.ParametrReportRepository;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -31,8 +30,8 @@ public class ParametrReportService {
             }
         return parametrReportRepository.findTopByNameEn(name_en);
     }
-    public List<Report> findListReport(){
-       return reportMapper.toListReport(parametrReportRepository.findAll());
+    public List<ReportDto> findListReport(){
+       return null;
 
     }
 }
