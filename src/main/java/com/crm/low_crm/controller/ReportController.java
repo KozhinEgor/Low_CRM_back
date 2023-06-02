@@ -28,7 +28,7 @@ public class ReportController extends BaseController<Report, ReportDto, FilterRe
     }
 
     @PostMapping("/generateReport")
-    private List<Values> generateReport(@RequestBody ParametrReport parametrReport){
-        return generateReport.generateValues(parametrReport);
+    private List<Values> generateReport(@RequestBody FilterReport filterReport){
+        return generateReport.generateValues(filterReport);
     }
 }

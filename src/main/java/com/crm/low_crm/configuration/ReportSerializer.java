@@ -8,9 +8,9 @@ import com.fasterxml.jackson.databind.SerializerProvider;
 
 import java.io.IOException;
 
-public class MySerializer extends JsonSerializer<ViewReport> {
+public class ReportSerializer extends JsonSerializer<ViewReport> {
 
-    public MySerializer() {
+    public ReportSerializer() {
     }
 
     @Override

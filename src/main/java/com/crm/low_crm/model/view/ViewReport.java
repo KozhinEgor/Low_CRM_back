@@ -1,6 +1,6 @@
 package com.crm.low_crm.model.view;
 
-import com.crm.low_crm.configuration.MySerializer;
+import com.crm.low_crm.configuration.ReportSerializer;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,7 +9,7 @@ import java.time.LocalDate;
 
 @Data
 @AllArgsConstructor
-@JsonSerialize(using = MySerializer.class)
+@JsonSerialize(using = ReportSerializer.class)
 public class ViewReport {
     private Integer count;
     private Integer secondCount;

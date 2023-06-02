@@ -11,10 +11,5 @@ import java.io.Serializable;
 @NoArgsConstructor
 @AllArgsConstructor
 public class FilterReport implements Serializable {
-//    {"name": "string", "typeFilter": "string", "value": ["string", "string"]}
-    private Boolean disabled;
-    private String name;
     private TypeFilter typeFilter;
-    private Object[] value;
-    private Object[] selectValue;
 }
